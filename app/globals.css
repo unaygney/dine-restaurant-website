@@ -2,6 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .heading-xl {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    font-weight: 300;
+  }
+
+  .heading-l {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+  }
+  .heading-m {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+  }
+
+  .heading-s {
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+    font-weight: 600;
+  }
+  .body-text-1 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .body-text-2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
