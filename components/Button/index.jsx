@@ -21,7 +21,7 @@ export default function Button({
         {
           " border border-[#fff] text-[#fff] hover:bg-[#fff] hover:text-mirage":
             !disabled && variant === "primary",
-          " border border-cod-gray text-cod-gray hover:bg-cod-gray hover:text-[#fff]":
+          " border border-white text-white hover:bg-white hover:text-mirage":
             !disabled && variant === "secondary",
           " border border-[#979797] text-[#979797] cursor-not-allowed":
             disabled && variant === "primary",
