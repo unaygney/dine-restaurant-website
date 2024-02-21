@@ -1,12 +1,5 @@
-import Button from "@/components/Button";
-import Input from "@/components/Input";
+import HomeContainer from "@/containers/home-container";
 
 export default function Home() {
-  return (
-    <main className=" w-screen h-screen">
-      <Button variant="primary" title="deneme" />
-      <Button variant="secondary" title="deneme" />
-      <Input name="name" placeholder="deneme" type="name" />
-    </main>
-  );
+  return <HomeContainer />;
 }
