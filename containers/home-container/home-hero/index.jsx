@@ -8,7 +8,9 @@ export default function HomeHero() {
       <div className="container mx-auto w-full h-full">
         <div className="w-full h-full px-6 md:px-10 flex flex-col justify-center items-center gap-6  text-white text-center lg:items-start lg:text-start ">
           <div className="lg:pb-10">
-            <Logo />
+            <Link href={"/"}>
+              <Logo />
+            </Link>
           </div>
           <h1 className="font-light  text-[32px] md:text-5xl text-pretty tracking-[-0.4px] md:tracking-[-0.6px]  md:max-w-[16ch] leading-10 lg:heading-xl ">
             Exquisite dining since 1989
