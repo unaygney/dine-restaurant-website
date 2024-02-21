@@ -7,13 +7,21 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      beaver: "#9e7f66",
-      "cod-gray": "#111111",
-      mirage: "#17192b",
-      "ebony-clay": "#242b37",
-      "shuttle-gray": "#5c6779",
+    extend: {
+      backgroundImage: {
+        "hero-mobile": "url(/hero-bg-mobile.jpg)",
+        "hero-tablet": "url(/hero-bg-tablet.jpg)",
+        "hero-desktop": "url(/hero-bg-desktop.jpg)",
+      },
+      colors: {
+        beaver: "#9e7f66",
+        "cod-gray": "#111111",
+        mirage: "#17192b",
+        "ebony-clay": "#242b37",
+        "shuttle-gray": "#5c6779",
+      },
     },
   },
+
   plugins: [],
 };
