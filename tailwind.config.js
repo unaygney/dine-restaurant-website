@@ -20,6 +20,13 @@ module.exports = {
         "ebony-clay": "#242b37",
         "shuttle-gray": "#5c6779",
       },
+      content: {
+        "bottom-right": "url(/patterns/pattern-curve-bottom-right.svg)",
+        "top-left": "url(/patterns/pattern-curve-top-left.svg)",
+        "top-right": "url(/patterns/pattern-curve-top-right.svg)",
+        divide: "url(/patterns/pattern-divide.svg)",
+        lines: "url(/patterns/pattern-lines.svg)",
+      },
     },
   },
 
