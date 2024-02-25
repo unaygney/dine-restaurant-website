@@ -10,7 +10,7 @@ export default function RestaurantCard() {
         <div className="flex flex-col gap-24">
           {CARD_INFO.map((item, i) => (
             <div
-              className="flex flex-col gap-20 relative lg:gap-[125px] -mt-16 lg:flex-row lg:justify-around lg:last:-mb-20 odd:md:before:content-bottom-right odd:md:before:absolute odd:md:before:-left-48 odd:md:before:top-[600px] odd:md:before:z-10 "
+              className="flex flex-col gap-20 relative lg:gap-[125px] -mt-16 lg:flex-row lg:justify-around lg:last:-mb-20  "
               key={item.id}
             >
               <div
