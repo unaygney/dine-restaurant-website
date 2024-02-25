@@ -12,6 +12,9 @@ module.exports = {
         "hero-mobile": "url(/hero-bg-mobile.jpg)",
         "hero-tablet": "url(/hero-bg-tablet.jpg)",
         "hero-desktop": "url(/hero-bg-desktop.jpg)",
+        "footer-hero-mobile": "url(/ready-bg-mobile.jpg)",
+        "footer-hero-tablet": "url(/ready-bg-tablet.jpg)",
+        "footer-hero-desktop": "url(/ready-bg-desktop.jpg)",
       },
       colors: {
         beaver: "#9e7f66",
