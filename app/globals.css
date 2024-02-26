@@ -46,3 +46,14 @@
     text-wrap: balance;
   }
 }
+
+.custom-border-b:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  width: 48px;
+  height: 1px;
+  background-color: #9e7f66;
+}
